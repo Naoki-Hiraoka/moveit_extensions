@@ -7,7 +7,7 @@ find_package(catkin REQUIRED
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES moveit_extensions
-#  CATKIN_DEPENDS other_catkin_pkg
+  CATKIN_DEPENDS moveit_core
 #  DEPENDS system_lib
 )
 
